@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <div class="card">
+        <div class="search">
+            <label style="font-size: larger;" name="city"></label>
+            <input type="text" id="input" class="search-bar" placeholder=" 𝘚𝘦𝘢𝘳𝘤𝘩 𝘧𝘰𝘳 𝘸𝘦𝘢𝘵𝘩𝘦𝘳 𝘪𝘯...">&nbsp&nbsp
+            <ul class="list"></ul>
+            <button>𝘚𝘦𝘢𝘳𝘤𝘩</button>
+        </div>
+
+        <div class="weather">
+            <h2 class="city"></h2>
+            <h1 class="temp"></h1>
+            <div class="flex">
+            <img src="" alt="" class="icon" />
+            <div class="description"></div>
+            </div>
+            <div class="humidity"></div>
+            <div class="wind"></div>
+            <a id="forcast" href="forecast.html"><strong>5 day forecast</strong></a>
+        </div>
+
+    </div>
+</body>
+</html>
